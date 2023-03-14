@@ -33,3 +33,15 @@ container.appendChild(content);
 container.appendChild(redP);
 container.appendChild(headingThree);
 container.appendChild(blkpnk);
+
+//const btn = document.querySelector('#btn');
+//btn.onclick = () => alert("He llo World");
+
+const btnToo = document.querySelector('#btnToo');
+btnToo.addEventListener('click', () => {
+  alert("Hello World");
+});
+
+btn.addEventListener('click', function (e) {
+  console.log(e);
+});
